@@ -10,7 +10,10 @@ fun main() {
 //    val dayThree = dailys.Day3()
 //    dayThree.partOne(File("InputFiles/day3Test.txt"))
 //    dayThree.partTwo(File("InputFiles/day3.txt"))
-    val dayFour = dailys.Day4()
+//    val dayFour = dailys.Day4()
 //    dayFour.partOne(File("InputFiles/day4Test.txt"))
-    dayFour.partTwo(File("InputFiles/day4.txt"))
+//    dayFour.partTwo(File("InputFiles/day4.txt"))
+    val dayFive = dailys.Day5()
+//    dayFive.partOne(File("InputFiles/day5.txt"))
+    dayFive.partTwo(File("InputFiles/day5.txt"))
 }
