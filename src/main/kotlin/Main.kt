@@ -1,4 +1,6 @@
+import dailys.Day7
 import java.io.File
+import kotlin.time.measureTime
 
 fun main() {
 //    val dayOne = dailys.Day1()
@@ -13,7 +15,13 @@ fun main() {
 //    val dayFour = dailys.Day4()
 //    dayFour.partOne(File("InputFiles/day4Test.txt"))
 //    dayFour.partTwo(File("InputFiles/day4.txt"))
-    val dayFive = dailys.Day5()
+//    val dayFive = dailys.Day5()
 //    dayFive.partOne(File("InputFiles/day5.txt"))
-    dayFive.partTwo(File("InputFiles/day5.txt"))
+//    dayFive.partTwo(File("InputFiles/day5.txt"))
+    //dayFive.partTwo(File("InputFiles/day5.txt"))
+//    val daySix = dailys.Day6()
+    //daySix.partOne(File("InputFiles/day6.txt"))
+//    daySix.partTwo(File("InputFiles/day6.txt"))
+    val daySeven = Day7()
+    daySeven.fullSolution(File("InputFiles/day7.txt"))
 }
